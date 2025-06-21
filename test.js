@@ -1,6 +1,6 @@
 const { GoogleGenAI } = require("@google/genai");
 
-const ai = new GoogleGenAI({ apiKey: "AIzaSyAV5ueN--NK12pD-EilvTDIUUYVbhhczBs" });
+const ai = new GoogleGenAI({ apiKey: "" });
 
 async function main(role, skills , difficulty) {
      const prompt = `
