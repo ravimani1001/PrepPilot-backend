@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: 'https://prep-pilot-chi.vercel.app/',
+  origin: 'https://prep-pilot-chi.vercel.app',
   credentials: true
 }));
 app.use(express.json());
